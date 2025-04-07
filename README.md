@@ -1,5 +1,8 @@
 # Advace generator
 
+# vídeo da aplicação
+https://github.com/user-attachments/assets/6cc7607a-003b-4a6d-a754-293559640206
+
 # Propósito da aplicação:
 - O propósito da aplicação é trabalhar com a DOM da aplicação manipulando elementos de acordo com ações do usuário e tamanho de dispositivos.
 
