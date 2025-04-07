@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneackers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/mediaqueries.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <header class="header">
+            <nav class="navegation">
+                <div class="menu">
+                    <h1 class="logo">sneackers</h1>
+                    <div class="hamb-menu">
+                            <img src="src/images/icon-menu.svg" alt="menu-hamburguer" class="ham-img">
+                        <ul class="mobile-navegation">
+                            <img src="src/images/icon-close.svg" alt="close-menu" class="close-img">
+                            <li>Collections</li>
+                            <li>Men</li>
+                            <li>Women</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cart-and-profile">
+                    <div class="cart">
+                        <img src="src/images/icon-cart.svg" alt="Cart" class="cart-shopping">
+                        <span class="cart-quantity">0</span>
+                    </div>
+                    <img src="src/images/image-avatar.png" alt="Profile picture" class="profile-picture">
+                </div>
+            </nav>
+            <div class="viwe-cart">
+                <div class="cart-itens">
+                    <div class="top-cart">
+                        <p>Cart</p>
+                    </div>
+                    <div class="product-cart">
+                        <p class="empty-cart">Your cart is empty</p>
+                        <div class="item-cart">
+                            <img src="" alt="" class="product-img-cart">
+                            <div class="product-infos-cart">
+                                <p class="product-name"></p>
+                                <p class="value-checkout">
+                                <span class="product-price"></span>
+                                <span class="product-quantity"></span>
+                                <span class="total-purchase"></span>
+                            </p>
+                            </div>
+                            <img src="src/images/icon-delete.svg" alt="" class="icon-delete">
+                            <button class="btn-checkout">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="content-container">
+            <div class="product">
+                <div class="images">
+                    <div class="carrossel">
+                        <div class="div-btn-carrosel">
+                            <div class="previus-carrosel">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="next-carrosel">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="carrosel-images">
+                            <img src="src/images/image-product-1.jpg" alt="Product image" class="carrossel-images open">
+                        <img src="src/images/image-product-2.jpg" alt="Product image" class="carrossel-images">
+                        <img src="src/images/image-product-3.jpg" alt="Product image" class="carrossel-images">
+                        <img src="src/images/image-product-4.jpg" alt="Product image" class="carrossel-images">
+                        </div>
+                    </div>
+                    <div class="thumbnail-images-container">
+                        <div class="thumbnail-images show-border">
+                            <img src="src/images/image-product-1-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image show-opacity">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="src/images/image-product-2-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="src/images/image-product-3-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="src/images/image-product-4-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-infos">
+                    <p class="sneaker-company">sneaker company</p>
+                    <h1 class="sneacker-name">Fall Limited Edition Sneakers</h1>
+                    <p class="sneacker-description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                    <ul class="prices">
+                        <li class="discount-prince">$125.00</li>
+                        <li class="full-price">$250.00</li>
+                        <li class="discount">50%</li>
+                    </ul>
+                    <div class="item-quantity">
+                        <i class="fa-solid fa-minus fa-lg"></i>
+                        <p class="quantity">1</p>
+                        <i class="fa-solid fa-plus fa-lg"></i>
+                    </div>
+                    <button class="btn-add-to-cart"><img src="src/images/icon-cart -button.svg" alt="Cart" class="cart-button"> <span class="label">Add to cart</span></button>
+                </div>
+                <div class="images modal">
+                    <i class="fa-solid fa-xmark modal-close"></i>
+                    <div class="carrossel">
+                        <div class="div-btn">
+                            <div class="previus">
+                                <i class="fa-solid fa-chevron-left previus-modal"></i>
+                            </div>
+                            <div class="next">
+                                <i class="fa-solid fa-chevron-right next-modal"></i>
+                            </div>
+                        </div>
+                        <img src="src/images/image-product-1.jpg" alt="Product image" class="carrossel-images-modal open-modal-image">
+                        <img src="src/images/image-product-2.jpg" alt="Product image" class="carrossel-images-modal">
+                        <img src="src/images/image-product-3.jpg" alt="Product image" class="carrossel-images-modal">
+                        <img src="src/images/image-product-4.jpg" alt="Product image" class="carrossel-images-modal">
+                        
+                    </div>
+                    <div class="thumbnail-images-container">
+                        <div class="thumbnail-images-modal show-border-modal">
+                            <img src="src/images/image-product-1-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image-modal show-opacity-modal">
+                        </div>
+                        <div class="thumbnail-images-modal">
+                            <img src="src/images/image-product-2-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image-modal">
+                        </div>
+                        <div class="thumbnail-images-modal">
+                            <img src="src/images/image-product-3-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image-modal">
+                        </div>
+                        <div class="thumbnail-images-modal">
+                            <img src="src/images/image-product-4-thumbnail.jpg" alt="Product thumbnail image" class="thumbnail-image-modal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="src/scripts/index.js"></script>
+</body>
+
+</html>
